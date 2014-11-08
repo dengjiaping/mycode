@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/llyt_propertyprogress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:visibility="gone"
+        >
+        <ProgressBar 
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            
+           
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/llyt_propertymessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" 
+            android:background="@drawable/info_first_bg"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+			<LinearLayout 
+			    android:layout_width="match_parent"
+            	android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_propertyproject_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:gravity="center_horizontal"
+                android:text="@string/propertymessg_propertyname"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <ImageView
+                android:id="@+id/iv_map_collectionproperty"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_weight="1"
+                android:src="@drawable/ic_uncollection" />
+            </LinearLayout>
+           <View android:layout_width="wrap_content"
+               android:layout_height="1dp"
+               android:background="@drawable/info_cutline"
+               android:layout_marginTop="2dp"
+               android:layout_marginBottom="2dp"/>
+             <LinearLayout 
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal"
+               >
+           <LinearLayout 
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_weight="2"
+               >
+               <LinearLayout
+                     android:id="@+id/llyt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_projectaddress" />
+
+                    <TextView
+                        android:id="@+id/tv_property_address"
+                        style="@style/property_content" />
+                </LinearLayout>
+          
+                
+           <LinearLayout
+                    android:id="@+id/llyt_telephonesales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_telephonesales" />
+
+                    <TextView
+                        android:id="@+id/tv_property_telephonesales"
+                        style="@style/property_content" />
+                </LinearLayout>
+                </LinearLayout>
+                <LinearLayout 
+                     android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:orientation="vertical"
+                 android:layout_weight="1">
+           			<LinearLayout
+                   
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    />
+                    <LinearLayout
+                     android:id="@+id/llyt_houseprice"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+					<TextView
+                        android:id="@+id/tv_property_houseprice"
+                        style="@style/property_content" 
+                        android:gravity="right"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="0"/>
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_price" 
+                        android:layout_gravity="bottom"
+                        android:layout_margin="0dp"
+                        android:layout_marginLeft="2dp"/>
+
+                    
+                </LinearLayout>
+                </LinearLayout>
+                </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:background="@drawable/info_second_bg"
+            android:padding="5dp"
+                 android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" 
+                
+                >
+
+                
+
+                 <LinearLayout
+                    android:id="@+id/llyt_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_city" />
+
+                    <TextView
+                        android:id="@+id/tv_property_city"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_newtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_newtype" />
+
+                    <TextView
+                        android:id="@+id/tv_property_newtype"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                
+
+                <LinearLayout
+                      android:id="@+id/llyt_housetype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_housetype" />
+
+                    <TextView
+                        android:id="@+id/tv_property_housetype"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_numberofhourse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_housenumber" />
+
+                    <TextView
+                        android:id="@+id/tv_property_numberofhourse"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_developers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_developers" />
+
+                    <TextView
+                        android:id="@+id/tv_property_developers"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_addressSales"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_addressSales" />
+
+                    <TextView
+                        android:id="@+id/tv_property_addressSales"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                
+
+                <LinearLayout
+                    android:id="@+id/llyt_presalePermit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_presalePermit" />
+
+                    <TextView
+                        android:id="@+id/tv_property_presalePermit"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llyt_presellInf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_presellInf" />
+
+                    <TextView
+                        android:id="@+id/tv_property_presellInf"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_decorationstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_decorationstatus" />
+
+                    <TextView
+                        android:id="@+id/tv_property_decorationstatus"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                      android:id="@+id/llyt_areayear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_areayear" />
+
+                    <TextView
+                        android:id="@+id/tv_property_areayear"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llyt_areacovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_areacovered" />
+
+                    <TextView
+                        android:id="@+id/tv_property_areacovered"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llyt_greeningrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_greeningrate" />
+
+                    <TextView
+                        android:id="@+id/tv_property_greeningrate"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_volumerate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_volumerate" />
+
+                    <TextView
+                        android:id="@+id/tv_property_volumerate"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llyt_poolrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_poolrate" />
+
+                    <TextView
+                        android:id="@+id/tv_property_poolrate"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_totalareacovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_totalareacovered" />
+
+                    <TextView
+                        android:id="@+id/tv_property_totalareacovered"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                      android:id="@+id/llyt_propertycompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_propertycompany" />
+
+                    <TextView
+                        android:id="@+id/tv_property_propertycompany"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_propertycost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_propertycost" />
+
+                    <TextView
+                        android:id="@+id/tv_property_propertycost"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_parkingspace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_parkingspace" />
+
+                    <TextView
+                        android:id="@+id/tv_property_parkingspace"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_traffic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_traffic" />
+
+                    <TextView
+                        android:id="@+id/tv_property_traffic"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llyt_opentime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_opentime" />
+
+                    <TextView
+                        android:id="@+id/tv_property_opentime"
+                        style="@style/property_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                     android:id="@+id/llyt_checkintime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        style="@style/propertyinfo_title"
+                        android:text="@string/propertymessage_checkintime" />
+
+                    <TextView
+                        android:id="@+id/tv_property_checkintime"
+                        style="@style/property_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

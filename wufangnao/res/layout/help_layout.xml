@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/index_bg">
+   
+    <TextView 
+        android:id="@+id/tv_helptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_title"
+        android:textSize="@dimen/help_title_size"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="@dimen/help_title_marginleft"
+        android:layout_marginTop="@dimen/help_title_margintop"
+        />
+     <ScrollView 
+           android:layout_below="@+id/tv_helptitle"
+         android:layout_marginTop="@dimen/help_title_margintop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:scrollbars="@null">
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:id="@+id/vp_help_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:text="@string/help_content"
+                android:editable="false"
+                android:background="@null"
+                  android:textColor="@color/white"
+                />
+             
+        </LinearLayout>
+        </ScrollView>
+        
+    
+
+</RelativeLayout>

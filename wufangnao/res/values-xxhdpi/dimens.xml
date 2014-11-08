@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="index_title_textsize">25sp</dimen>
+	<dimen name="localchoic_futitle_textsize">25sp</dimen>
+	<dimen name="localchoic_futitle_margintop">100dp</dimen>
+	<dimen name="localchoic_futitle_marginleft">30dp</dimen>
+	<dimen name="localchoic_select_marginleft">20dp</dimen>
+	<dimen name="localchoic_select_margintop">25dp</dimen>
+	<dimen name="index_title_margintop">20dp</dimen>
+	<dimen name="localchoic_submit_margintop">40dp</dimen>
+	<dimen name="localchoic_select_textsize">25sp</dimen>
+	<dimen name="localchoic_city_item_textsize">20sp</dimen>
+	<dimen name="help_title_size">25sp</dimen>
+	<dimen name="help_title_marginleft">25dp</dimen>
+	<dimen name="help_title_margintop">25dp</dimen>
+	<color name="text_bg">#52c2df</color>
+	<color name="white">#FFFFFF</color>
+	<color name="balck">#000000</color>
+	<dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <integer name="num_cols">1</integer>
+    <dimen name="menu_textsize">20sp</dimen>
+    <dimen name="property_title_textsize">16sp</dimen>
+    <dimen name="localproperty_textsize">10sp</dimen>
+    <dimen name="unti_textsizebig">14sp</dimen>
+    <dimen name="unti_textsizemin">8sp</dimen>
+</resources>

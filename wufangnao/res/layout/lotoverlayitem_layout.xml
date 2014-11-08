@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llyt_lot_info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popup_lot"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rlyt_landfloor"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" >
+
+            <TextView
+                android:id="@+id/tv_title_landfloor"
+                style="@style/lotinfo_stylte"
+                android:text="楼面价:"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+               	 />
+
+            <TextView
+                android:id="@+id/tv_landfloor"
+                style="@style/lotinfo_stylte"
+                android:layout_marginLeft="3dp"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/tv_title_landfloor"
+                android:textColor="@color/white"
+               	 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_landmaketime"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_title_landmaketime"
+                style="@style/lotinfo_stylte"
+                android:text="成交时间:"
+                android:textColor="@color/balck" />
+
+            <TextView
+                android:id="@+id/tv_landmaketime"
+                style="@style/lotinfo_stylte"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_title_landmaketime"
+                android:textColor="@color/balck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_landareacount"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_title_landareacount"
+                style="@style/lotinfo_stylte"
+                android:text="土地总面积:"
+                android:textColor="@color/balck" />
+
+            <TextView
+                android:id="@+id/tv_lotareacount"
+                style="@style/lotinfo_stylte"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_title_landareacount"
+                android:textColor="@color/balck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlyt_landuse"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_title_landuse"
+                style="@style/lotinfo_stylte"
+                android:text="土地用途:"
+                android:textColor="@color/balck" />
+
+            <TextView
+                android:id="@+id/tv_landuse"
+                style="@style/lotinfo_stylte"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_title_landuse"
+                android:singleLine="true"
+                android:textColor="@color/balck" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_title_landno"
+                style="@style/lotinfo_stylte"
+                android:text="编号："
+                android:textColor="@color/balck" />
+
+            <TextView
+                android:id="@+id/tv_lotid"
+                style="@style/lotinfo_stylte"
+                android:layout_marginLeft="3dp"
+                android:layout_toRightOf="@+id/tv_title_landno"
+                android:textColor="@color/balck" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_lot_infobtoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-3dp"
+        android:src="@drawable/infobottom" />
+
+    <ImageView
+        android:id="@+id/iv_lot_voerlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_property" />
+
+</LinearLayout>

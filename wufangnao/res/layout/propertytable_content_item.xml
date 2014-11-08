@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/propertytable_content__llyt"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center">
+
+        <LinearLayout style="@style/propertytable_llyt_stytle" >
+
+            <ImageView
+                android:id="@+id/propertytable_jingzhuang"
+               	android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+               	android:background="@drawable/has"
+               	android:layout_margin="5dp"
+               	 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout style="@style/propertytable_llyt_stytle" >
+			<ImageView
+                android:id="@+id/propertytable_zaishou"
+               	android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+               	android:background="@drawable/has"
+               	android:layout_margin="5dp"
+               	 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout style="@style/propertytable_llyt_stytle" >
+			<ImageView
+                android:id="@+id/propertytable_gaocheng"
+               	android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+               	android:background="@drawable/has"
+               	android:layout_margin="5dp"
+               	 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout style="@style/propertytable_llyt_stytle" >
+
+            <ImageView
+                android:id="@+id/propertytable_bigchanquanfang"
+               	android:layout_width="wrap_content"
+               	android:layout_height="wrap_content"
+               	android:background="@drawable/has"
+               	android:layout_margin="5dp"
+               	 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#ffffff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/propertytable_propertyname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/horizontal_line" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/horizontal_handstand_line" />
+    </LinearLayout>
+
+</LinearLayout>

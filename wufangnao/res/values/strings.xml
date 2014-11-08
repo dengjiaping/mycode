@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="tag_select" type="id"></item>
+    <item name="tag_id" type="id"></item>
+    <item name="tag_location" type="id"></item>
+    <item name="tag_city" type="id"></item>
+    <item name="tag_area" type="id"></item>
+
+    <string name="app_name">无房恼</string>
+    <string name="menu_tool">工具</string>
+    <string name="wufangnao_title">无房恼</string>
+    <string name="localchoice_title">地域选择</string>
+    <string name="propertycollection">楼盘收藏</string>
+    <string name="lotcollection">区域收藏</string>
+    <string name="help_title">帮助</string>
+    <string name="feedback_title">意见与反馈</string>
+    <string name="feedbakc_contact">请输入你的邮箱地址</string>
+    <string name="feedback_content">请输入您的宝贵意见</string>
+    <string name="propertymessg_propertyname">楼盘名称</string>
+    <string name="propertymessage_city">城市地域：</string>
+    <string name="propertymessage_projectaddress">项目地址：</string>
+    <string name="propertymessage_newtype">新房类型：</string>
+    <string name="propertymessage_price">元/平米</string>
+    <string name="propertymessage_housetype">主力户型：</string>
+    <string name="propertymessage_housenumber">房源数：</string>
+    <string name="propertymessage_developers">开发商：</string>
+    <string name="propertymessage_addressSales">售楼处：</string>
+    <string name="propertymessage_telephonesales">售楼电话：</string>
+    <string name="propertymessage_presalePermit">预售许可证：</string>
+    <string name="propertymessage_presellInf">销售信息：</string>
+    <string name="propertymessage_decorationstatus">装修状况：</string>
+    <string name="propertymessage_areayear">使用年限：</string>
+    <string name="propertymessage_areacovered">占地面积：</string>
+    <string name="propertymessage_greeningrate">绿化率：</string>
+    <string name="propertymessage_volumerate">容积率：</string>
+    <string name="propertymessage_poolrate">公摊面积：</string>
+    <string name="propertymessage_totalareacovered">总建筑面积：</string>
+    <string name="propertymessage_propertycompany">物业公司：</string>
+    <string name="propertymessage_propertycost">物业费：</string>
+    <string name="propertymessage_parkingspace">停车位：</string>
+    <string name="propertymessage_traffic">交通状况：</string>
+    <string name="propertymessage_opentime">开盘时间：</string>
+    <string name="propertymessage_checkintime">入住时间：</string>
+    <string name="propertymsg_propertyname">楼盘</string>
+    <string name="propertymsg_city">所在地域</string>
+    <string name="propertymsg_projectaddress">项目地址</string>
+    <string name="propertymsg_newtype">新房类型</string>
+    <string name="propertymsg_price">价格</string>
+    <string name="propertymsg_housetype">主力户型</string>
+    <string name="propertymsg_housenumber">房源数</string>
+    <string name="propertymsg_developers">开发商</string>
+    <string name="propertymsg_addressSales">售楼处</string>
+    <string name="propertymsg_telephonesales">售楼电话</string>
+    <string name="propertymsg_presalePermit">预售许可证</string>
+    <string name="propertymsg_presellInf">销售信息</string>
+    <string name="propertymsg_decorationstatus">装修状况</string>
+    <string name="propertymsg_areayear">使用年限</string>
+    <string name="propertymsg_areacovered">占地面积</string>
+    <string name="propertymsg_greeningrate">绿化率</string>
+    <string name="propertymsg_volumerate">容积率</string>
+    <string name="propertymsg_poolrate">公摊率</string>
+    <string name="propertymsg_totalareacovered">总建筑面积</string>
+    <string name="propertymsg_propertycompany">物业公司</string>
+    <string name="propertymsg_propertycost">物业费</string>
+    <string name="propertymsg_parkingspace">停车位</string>
+    <string name="propertymsg_traffic">交通状况</string>
+    <string name="propertymsg_opentime">开盘时间</string>
+    <string name="propertymsg_checkintime">入住时间</string>
+    <string name="propertytale_yuanm2">元/m2</string>
+    <string name="propertytale_m2">m2</string>
+    <string name="propertytale_title">楼盘数据分析</string>
+    <string name="propertytale_jingzhuang">精装</string>
+    <string name="propertytale_zaishou">在售</string>
+    <string name="propertytale_gaocheng">高层</string>
+    <string name="propertytale_bigchanquanfang">大产\n权房</string>
+    <string name="data_info">数据加载中······</string>
+    <string name="index">主页</string>
+    <string name="menu_list">功能菜单</string>
+    <string name="menu_help">帮助</string>
+    <string name="ment_option">意见与建议</string>
+    <string name="changecity">手动定位</string>
+    <string name="propertyMessage">楼盘信息</string>
+    <string name="lotMessage">地块信息</string>
+    <string name="property">周边楼盘</string>
+    <string name="propertymap">楼盘地图</string>
+    <string name="lot">地块信息</string>
+    <string name="lotlist">地块列表</string>
+    <string name="collection">收藏</string>
+    <string name="help_content"><b>\n1、搜索房源\n</b>	\n 在首页圆圈自动定位按钮点入，进入“无房恼”住功能界面后浏览周边楼盘和地块信息，可以从地图中查看您当前位置周边的楼盘及信息。\n<b>\n2、房源收藏及查看\n</b>	\n 在首页进入“无房恼”主功能界面后，点击界面的“+收藏”可以收藏您当前位置周边的所有楼盘，同时点击周边楼盘里的单个楼盘，可有在楼盘详情里对单个楼盘进行收藏。可以通过左滑出现“功能菜单”查看楼盘收藏和区域收藏。\n <b>\n3、地图运用\n</b>	\n 在首页进入“无房恼”的周边楼盘和地块信息，对比较关注的楼盘“点击”进去，可以查看楼盘详情和楼盘标签 。\n<b>\n4、查看数据分析\n</b>	\n 在首页进入“无房恼”主功能界面后，可以向上滑动您当年周边楼盘的数据分析，也能同时向左滑动查看。\n</string>
+	<string name="mylocation"><b>我的位置</b></string>
+</resources>

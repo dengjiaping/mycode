@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:baselineAligned="false">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:baselineAligned="false">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_propertylsit_propertyname"
+            style="@style/collection_textview_stytle"
+            android:layout_margin="3dp"
+            android:text="楼盘名称"
+            android:textSize="18sp" />
+		<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+		    <TextView
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	style="@style/collection_textview_stytle"
+            android:layout_margin="3dp"
+            android:text="新房类型：" />
+        <TextView
+            android:id="@+id/tv_propertylsit_propertyaddress"
+            style="@style/collection_textview_stytle"
+            android:layout_margin="3dp"
+            />
+        </LinearLayout>
+	<LinearLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal">
+         <TextView
+         	android:layout_width="wrap_content"
+         	android:layout_height="wrap_content"
+         	style="@style/collection_textview_stytle"
+            android:layout_margin="3dp"
+            android:text="开盘日期：" />
+        <TextView
+            android:id="@+id/tv_propertylsit_collectiondate"
+            style="@style/collection_textview_stytle"
+            android:layout_margin="3dp"
+            />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginRight="3dp"
+                android:text="装修状况:"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_propertylsit_phonenumber"
+                style="@style/collection_textview_stytle"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+		  <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/propertylsit_left_ico"
+                />
+            </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_propertylsit_price"
+                style="@style/textview_stytle"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/text_uiti"
+                android:text="9800"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/text_uiti"
+                style="@style/textview_stytle"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="(元/m2)"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+<ImageView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listcut_bottomline"
+    />
+</LinearLayout>

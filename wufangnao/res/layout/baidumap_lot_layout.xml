@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.wufangnao.combination.MyLocationMapView
+        android:id="@+id/mv_lot_baidumap"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+     <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/map_titlebg"
+        >
+        <ImageButton 
+            android:id="@+id/iv_lot_mapback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_back"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/lotMessage"
+            android:textColor="@color/white"
+            />
+    </RelativeLayout>
+   <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true">
+    <ImageView
+        android:id="@+id/iv_lot_touserpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/userposiont" />
+  
+  <ImageView 
+        android:id="@+id/iv_lot_maporlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maporlist"
+        android:layout_centerInParent="true"
+        />
+    </RelativeLayout>
+   <!--  <LinearLayout 
+        android:id="@+id/llyt_lot_propertymsg"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/propertyinfo_bg"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/mv_lot_baidumap"
+        >
+        <ImageView 
+            android:id="@+id/iv_lot_colseview"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            />
+        <ImageView 
+            android:id="@+id/iv_lot_selectbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/selectd_propertyinfo"
+            />
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_lot_property_content"
+            android:layout_width="match_parent"
+           	android:layout_height="match_parent"
+            />
+        
+    </LinearLayout>
+
+     -->
+
+</RelativeLayout>

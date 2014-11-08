@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="80dp"
+	android:orientation="vertical">
+	<LinearLayout
+	    android:paddingBottom="10dp"
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:id="@+id/head_contentLayout">
+		<LinearLayout 
+		    android:layout_width="50dp"
+		    android:layout_height="fill_parent"
+		    android:gravity="center_horizontal|bottom">
+		    <LinearLayout 
+		        android:layout_width="20dp"
+		        android:layout_height="50dp"
+		        android:background="@drawable/xiala"></LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+		    android:layout_marginRight="50dp"
+		    android:gravity="center_horizontal|bottom"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="下拉刷新"
+				android:textColor="#000000"
+				android:textSize="16dp"
+				android:id="@+id/head_tipsTextView"/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/head_lastUpdatedTextView"
+				android:text="上次更新"
+				android:textColor="#b89766"
+				android:textSize="10dp"/>
+			<ProgressBar
+			    
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@android:style/Widget.ProgressBar.Small.Inverse"
+				android:layout_gravity="center"
+				android:id="@+id/head_progressBar"
+				android:visibility="gone"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
